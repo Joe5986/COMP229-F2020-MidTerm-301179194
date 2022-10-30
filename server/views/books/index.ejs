@@ -36,14 +36,14 @@
                     <!-- ------------------------ -->
                     <!-- ADD the EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <button href="" class="btn btn-primary">EDIT</button>
+                    <a href="./details.ejs?_id=${book._id}" class="btn btn-primary">EDIT</a>
                   </td>
 
                   <td class="text-center">
                     <!-- ------------------------ -->
                     <!-- ADD the DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <!--<button href="" class="btn btn-primary">DELETE</button>-->
+                    <button href="/books/delete/${book._id}" class="btn btn-primary">DELETE</button>
                   </td>
                 </tr>
                 <% } %>
