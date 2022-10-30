@@ -9,7 +9,7 @@ let Book = mongoose.Schema({
     Genre: String
 },
 {
-  collection: "books"
+  collection: "books-midterm"
 });
 
 module.exports = mongoose.model('Book', Book);
