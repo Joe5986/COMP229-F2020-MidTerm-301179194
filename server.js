@@ -1,4 +1,13 @@
-let app = require('./server/config/app');
+/**--------------------------------------------------------
+ * File name: server.js
+ * Author: YINGJIE ZHOU
+ * StudentID: 301179194
+ * WebAppName: Books Information for sale
+ * Data: 2022/Oct/30
+ * --------------------------------------------------------
+ */
+
+ let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
 

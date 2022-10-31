@@ -1,3 +1,12 @@
+/**--------------------------------------------------------
+ * File name: app.js
+ * Author: YINGJIE ZHOU
+ * StudentID: 301179194
+ * WebAppName: Books Information for sale
+ * Data: 2022/Oct/30
+ * --------------------------------------------------------
+ */
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');

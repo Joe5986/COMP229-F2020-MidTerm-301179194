@@ -1,4 +1,13 @@
-let mongoose = require('mongoose');
+/**--------------------------------------------------------
+ * File name: books.js
+ * Author: YINGJIE ZHOU
+ * StudentID: 301179194
+ * WebAppName: Books Information for sale
+ * Data: 2022/Oct/30
+ * --------------------------------------------------------
+ */
+
+ let mongoose = require('mongoose');
 
 // create a model class
 let Book = mongoose.Schema({
