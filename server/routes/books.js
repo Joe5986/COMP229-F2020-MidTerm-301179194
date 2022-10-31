@@ -1,4 +1,5 @@
 // modules required for routing
+const { Console } = require('console');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -110,7 +111,7 @@ router.post('/:id', (req, res, next) => {
 
 // GET - process the delete by user id
 router.get('/delete/:id', (req, res, next) => {
-
+console.log("Delete started");
     /*****************
      * ADD CODE HERE *
      *****************/
