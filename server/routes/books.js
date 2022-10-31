@@ -90,14 +90,16 @@ router.post('/:id', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
+     let id = req.params.id;
      let nbook = new books({
-      title: req.body.title,
-      author: req.body.author,
-      genre: req.body.genre,
+      _id : id,
+      Title: req.body.title,
+      Author: req.body.author,
+      Genre: req.body.genre,
       Price: parseFloat(req.body.price),
       Description: req.body.description
       });
-      book.updateOne({_id:req.params.id}, nbook, (err) => {
+      books.updateOne({_id:id}, nbook, (err) => {
       if (err) {
       return console.log(err);
       } else {
